@@ -11,9 +11,11 @@ function WebsiteRefs() {
 				title="Menu Quick Reference">
 				<div className={styles.card}>
 					<div className={styles.item}>
-						<Link href={"/"} title="Click to Follow Link">
-							Who We Are
-						</Link>
+						<h3>
+							<Link href={"/"} title="Click to Follow Link">
+								Who We Are
+							</Link>
+						</h3>
 					</div>
 
 					<div className={styles.item}>
