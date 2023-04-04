@@ -37,11 +37,11 @@ function WebsiteRefs() {
 
 				<div className={styles.card}>
 					<div className={styles.item}>
-						<h4>
+						<h3>
 							<Link href={"/services"} title="Click to Follow Link">
 								What We Do
 							</Link>
-						</h4>
+						</h3>
 					</div>
 
 					<div className={styles.item}>
@@ -69,11 +69,11 @@ function WebsiteRefs() {
 
 				<div className={styles.card}>
 					<div className={styles.item}>
-						<h4>
+						<h3>
 							<Link href={"/contact"} title="Click to Follow Link">
 								How To Contact
 							</Link>
-						</h4>
+						</h3>
 					</div>
 
 					<div className={styles.item}>
@@ -101,11 +101,11 @@ function WebsiteRefs() {
 
 				<div className={styles.card}>
 					<div className={styles.item}>
-						<h4>
+						<h3>
 							<Link href={"/#whyContractUs"} title="Click to Follow Link">
 								Background
 							</Link>
-						</h4>
+						</h3>
 					</div>
 
 					<div className={styles.item}>

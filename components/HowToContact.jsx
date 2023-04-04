@@ -47,7 +47,13 @@ function HowToContact() {
 							className={styles.btnRight}
 							alt="Leave A Contact Number"
 							title="Leave A Contact Number">
-							<a alt="Leave A Contact Number" title="Leave A Contact Number">
+							<a
+								className={styles.a}
+								href="https://docs.google.com/forms/d/e/1FAIpQLSfbZNpHFFOY_RY20mHva54ryS1mRpbaIYJiFQdZCZXcl0_BJQ/viewform"
+								alt="Leave A Contact Number"
+								title="Leave A Contact Number"
+								target="_blank"
+								rel="noopener noreferrer">
 								+1 (403) 397 3696
 							</a>
 						</div>
