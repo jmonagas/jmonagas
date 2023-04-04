@@ -1,0 +1,94 @@
+.container {
+	background-color: rgb(241, 241, 241);
+	padding: 3rem 1rem;
+	line-height: 1.5;
+}
+
+.desc {
+	max-width: 1100px;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.wrapper {
+	max-width: 1100px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	margin: 0 auto;
+	gap: 3rem;
+	margin-bottom: 3rem;
+}
+
+.left,
+.right {
+	background-color: white;
+	align-items: center;
+	margin: 0 auto;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+		rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+	border: 1px solid gray;
+}
+
+.h2 {
+	margin-top: 1rem;
+	text-align: center;
+	font-weight: normal;
+	font-size: 1.9rem;
+	padding: 1rem;
+	color: #0077b6;
+}
+
+.p {
+	text-align: center;
+	font-size: 22px;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+.btnLeft,
+.btnRight {
+	border: none;
+	border-radius: 10px;
+	padding: 1rem;
+	width: 100%;
+	background-color: rgb(0, 81, 255);
+	margin-bottom: 1rem;
+	color: white;
+	font-size: 1.1rem;
+}
+
+.btnRight {
+	background-color: rgb(255, 0, 0);
+}
+
+.btnLeft:hover {
+	background-color: rgb(0, 15, 215);
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+		rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+	border: 2px solid white;
+	cursor: pointer;
+}
+
+.btnRight:hover {
+	background-color: rgb(215, 0, 0);
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+		rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+	border: 2px solid white;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+	.wrapper {
+		display: block;
+		align-items: center;
+		margin: 0 auto;
+	}
+
+	.left,
+	.right {
+		margin-bottom: 3rem;
+	}
+}

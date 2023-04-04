@@ -1,0 +1,48 @@
+.container {
+	background-color: #232323;
+	line-height: 1.5;
+	overflow: hidden;
+	padding: 1rem;
+}
+
+.container:hover {
+	background-color: #1d1c38;
+}
+
+.wrapper {
+	padding: 2rem 0;
+	max-width: 1100px;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.articles {
+	padding: 0.5rem;
+}
+
+.h2 {
+	font-size: 1.9rem;
+	color: white;
+	font-weight: normal;
+	padding: 1rem;
+	text-align: center;
+}
+
+.p {
+	font-size: 22px;
+	color: white;
+	font-weight: normal;
+	padding: 1rem;
+	text-align: justify;
+}
+
+.a {
+	color: gold;
+}
+
+.a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}

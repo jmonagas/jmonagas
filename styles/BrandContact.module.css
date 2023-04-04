@@ -1,0 +1,81 @@
+.container {
+	margin: 0;
+	padding: 1rem;
+	background: rgb(21, 37, 43);
+	line-height: 1.5;
+	overflow: hidden;
+}
+
+.container:hover {
+	background: #0e181b;
+}
+
+.branding {
+	background-color: transparent;
+	max-width: 1100px;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.heading {
+	margin: 1rem 0;
+	padding: 1rem 0;
+}
+
+.h1 {
+	text-align: center;
+	font-size: 2.2rem;
+	color: white;
+	font-weight: normal;
+	margin: 0 1rem;
+}
+
+.motto {
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+	font-weight: normal;
+}
+
+.framing {
+	padding: 1rem 0;
+}
+
+.h2 {
+	text-align: center;
+	font-size: 1.5rem;
+	color: white;
+	font-weight: normal;
+	margin: 0 3rem;
+}
+
+.connect {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0;
+	padding: 0.5rem 0;
+	background-color: transparent;
+	border-radius: 10px;
+}
+
+.connect_item {
+	height: 50px;
+	width: 50px;
+	margin: 1rem;
+	border-radius: 50%;
+	color: rgb(21, 37, 43);
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.connect_item:hover {
+	cursor: pointer;
+	border: 1px solid rgb(21, 37, 43);
+	box-shadow: rgba(255, 255, 255, 0.7) 0px 0px 3px 5px;
+}

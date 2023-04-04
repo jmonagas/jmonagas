@@ -1,0 +1,51 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 4rem 1rem;
+	background-color: rgb(41, 43, 43);
+	font-size: 16px;
+	gap: 2rem 1rem;
+	overflow: hidden;
+}
+
+.card {
+	width: 250px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.card:hover {
+	background-color: rgb(56, 56, 56);
+	border-radius: 5px;
+	border: 1px solid gold;
+}
+
+.item {
+	padding: 15px 0;
+}
+
+.item a {
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.item a:hover {
+	color: gold;
+	border-bottom: 2px solid gold;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+
+.copyright {
+	padding: 3rem 0;
+	text-align: center;
+	color: #0077b6;
+	font-size: 18px;
+}
+
+.copyright:hover {
+	text-decoration: none;
+}
