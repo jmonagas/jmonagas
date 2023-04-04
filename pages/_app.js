@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 				<meta property="og:locale" content="en_US" key="og:locale" />
 				<meta property="og:type" content="website" key="og:type" />
-				<meta property="og:url" content="https://jmonagas.ml" key="og:url" />
+				<meta property="og:url" content="https://jmonagas.com" key="og:url" />
 				<meta
 					property="og:site_name"
 					content="J. Monagas&trade; Website Repair and Maintenance"
@@ -54,7 +54,7 @@ function MyApp({ Component, pageProps }) {
 				/>
 				<meta
 					property="twitter:site"
-					content="https://jmonagas.ml"
+					content="https://jmonagas.com"
 					key="twitter:site"
 				/>
 				<meta
@@ -106,7 +106,7 @@ function MyApp({ Component, pageProps }) {
 					content="Jose G. Monagas, Web Developer Full Stack, Calgary AB Canada"
 					key="copyright"
 				/>
-				<link rel="canonical" type="canonical" href="https://jmonagas.ml" />
+				<link rel="canonical" type="canonical" href="https://jmonagas.com" />
 				<link
 					rel="shortcut icon"
 					href="https://cdn.pixabay.com/photo/2021/10/11/13/12/website-6700615_960_720.png"

@@ -6,7 +6,7 @@ export default async function handler(req, res) {
 			email: "jmonagas@hotmail.ca",
 			location: "Calgary, AB, Canada",
 			occupation: "Website Developer, Full Stack",
-			website: "https://jmonagas.ml",
+			website: "https://jmonagas.com",
 			skills:
 				"Website Optimization, Content Creation, Proofreading, Translation in English-Spanish",
 		});

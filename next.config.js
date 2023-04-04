@@ -5,6 +5,6 @@ module.exports = {
 		defaultLocale: "en",
 	},
 	images: {
-		domains: ["jmonagas.ml"],
+		domains: ["jmonagas.com"],
 	},
 };
