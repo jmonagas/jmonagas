@@ -21,10 +21,10 @@ function BrandIntro() {
 				<section id="brandingIntro2">
 					<div className={styles.framing}>
 						<h2 className={styles.h2}>
-							When you are not limited to your local market or to your
-							physical store capacity, you can serve customers globally,
-							and your products can be shipped from anywhere in the
-							world. Your brand and products are visible to more people
+							When you are not limited to your local market or to your physical
+							store capacity, you can serve customers globally, and your
+							products can be shipped from anywhere in the world. Your brand and
+							products are visible to more people
 						</h2>
 					</div>
 				</section>
@@ -32,16 +32,12 @@ function BrandIntro() {
 					<div className={styles.connect}>
 						<a href="tel:1+4033973696" title="Phone Us Today">
 							<div className={styles.connect_item}>
-								<svg
-									viewBox="0 0 64 64"
-									fill="currentColor"
-									height={30}
-									width={30}>
+								<svg viewBox="0 0 64 64" fill="#000000" height={30} width={30}>
 									<g
 										fill="none"
 										stroke="rgb(0, 105, 131)"
 										strokeMiterlimit={10}
-										strokeWidth={2}>
+										strokeWidth={3}>
 										<path d="M16 1h32v62H16zM28 5h8M16 51h32M16 9h32" />
 										<path
 											strokeLinejoin="bevel"
@@ -62,7 +58,7 @@ function BrandIntro() {
 										fill="none"
 										stroke="rgb(0, 105, 131)"
 										strokeMiterlimit={10}
-										strokeWidth={2}>
+										strokeWidth={3}>
 										<path d="M1 13h62v37H1z" />
 										<path d="M1 13l31 20 31-20" />
 									</g>
@@ -84,7 +80,7 @@ function BrandIntro() {
 										fill="none"
 										stroke="rgb(0, 105, 131)"
 										strokeMiterlimit={10}
-										strokeWidth={2}>
+										strokeWidth={3}>
 										<path d="M38 22 A6 6 0 0 1 32 28 A6 6 0 0 1 26 22 A6 6 0 0 1 38 22 z" />
 										<path d="M53 22.735C52.948 10.73 43.599 1 32 1s-21 9.73-21 21.735C11 38.271 31.965 63 31.965 63S53.069 38.271 53 22.735z" />
 									</g>

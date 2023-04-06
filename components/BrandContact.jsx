@@ -22,10 +22,10 @@ function BrandContact() {
 				<section id="brandingContact2">
 					<div className={styles.framing}>
 						<h2 className={styles.h2}>
-							The more people visit your website and learn about your
-							brand, the more products and services they will likely
-							purchase or exponentially recommend to others by leaving
-							reviews or sharing their experience on social media
+							The more people visit your website and learn about your brand, the
+							more products and services they will likely purchase or
+							exponentially recommend to others by leaving reviews or sharing
+							their experience on social media
 						</h2>
 					</div>
 				</section>
@@ -43,7 +43,7 @@ function BrandContact() {
 										fill="none"
 										stroke="rgb(0, 105, 131)"
 										strokeMiterlimit={10}
-										strokeWidth={2}>
+										strokeWidth={3}>
 										<path d="M16 1h32v62H16zM28 5h8M16 51h32M16 9h32" />
 										<path
 											strokeLinejoin="bevel"
@@ -64,7 +64,7 @@ function BrandContact() {
 										fill="none"
 										stroke="rgb(0, 105, 131)"
 										strokeMiterlimit={10}
-										strokeWidth={2}>
+										strokeWidth={3}>
 										<path d="M1 13h62v37H1z" />
 										<path d="M1 13l31 20 31-20" />
 									</g>
@@ -86,7 +86,7 @@ function BrandContact() {
 										fill="none"
 										stroke="rgb(0, 105, 131)"
 										strokeMiterlimit={10}
-										strokeWidth={2}>
+										strokeWidth={3}>
 										<path d="M38 22 A6 6 0 0 1 32 28 A6 6 0 0 1 26 22 A6 6 0 0 1 38 22 z" />
 										<path d="M53 22.735C52.948 10.73 43.599 1 32 1s-21 9.73-21 21.735C11 38.271 31.965 63 31.965 63S53.069 38.271 53 22.735z" />
 									</g>

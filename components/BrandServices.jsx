@@ -22,11 +22,10 @@ function BrandServices() {
 				<section id="brandingServices2">
 					<div className={styles.framing}>
 						<h2 className={styles.h2}>
-							Websites might be offline for a few minutes; but oftentimes
-							this may take hours. Without regular updates and
-							maintenance, your site will be obsolete pretty soon. Web
-							maintenance costs range from $5 to $5K monthly or $60 to
-							$60K yearly
+							Websites might be offline for a few minutes; but oftentimes this
+							may take hours. Without regular updates and maintenance, your site
+							will be obsolete pretty soon. Web maintenance costs range from $5
+							to $5K monthly or $60 to $60K yearly
 						</h2>
 					</div>
 				</section>
@@ -44,7 +43,7 @@ function BrandServices() {
 										fill="none"
 										stroke="rgb(0, 105, 131)"
 										strokeMiterlimit={10}
-										strokeWidth={2}>
+										strokeWidth={3}>
 										<path d="M16 1h32v62H16zM28 5h8M16 51h32M16 9h32" />
 										<path
 											strokeLinejoin="bevel"
@@ -65,7 +64,7 @@ function BrandServices() {
 										fill="none"
 										stroke="rgb(0, 105, 131)"
 										strokeMiterlimit={10}
-										strokeWidth={2}>
+										strokeWidth={3}>
 										<path d="M1 13h62v37H1z" />
 										<path d="M1 13l31 20 31-20" />
 									</g>
@@ -87,7 +86,7 @@ function BrandServices() {
 										fill="none"
 										stroke="rgb(0, 105, 131)"
 										strokeMiterlimit={10}
-										strokeWidth={2}>
+										strokeWidth={3}>
 										<path d="M38 22 A6 6 0 0 1 32 28 A6 6 0 0 1 26 22 A6 6 0 0 1 38 22 z" />
 										<path d="M53 22.735C52.948 10.73 43.599 1 32 1s-21 9.73-21 21.735C11 38.271 31.965 63 31.965 63S53.069 38.271 53 22.735z" />
 									</g>
