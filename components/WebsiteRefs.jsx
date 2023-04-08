@@ -19,19 +19,19 @@ function WebsiteRefs() {
 					</div>
 
 					<div className={styles.item}>
-						<Link href={"/#introduction"} title="Click to Follow Link">
+						<Link href={"/#expertise"} title="Click to Follow Link">
 							Our Expertise
 						</Link>
 					</div>
 
 					<div className={styles.item}>
-						<Link href={"/#mainReasons"} title="Click to Follow Link">
+						<Link href={"/#reasons"} title="Click to Follow Link">
 							Key Reasons
 						</Link>
 					</div>
 
 					<div className={styles.item}>
-						<Link href={"/#introArticle"} title="Click to Follow Link">
+						<Link href={"/#benefits"} title="Click to Follow Link">
 							The Benefits
 						</Link>
 					</div>
@@ -47,23 +47,19 @@ function WebsiteRefs() {
 					</div>
 
 					<div className={styles.item}>
-						<Link href={"/services/#whatWeDo"} title="Click to Follow Link">
+						<Link href={"/services/#offer"} title="Click to Follow Link">
 							Our Services
 						</Link>
 					</div>
 
 					<div className={styles.item}>
-						<Link
-							href={"/services/#servicesArticle"}
-							title="Click to Follow Link">
+						<Link href={"/services/#maintenance"} title="Click to Follow Link">
 							Maintenance
 						</Link>
 					</div>
 
 					<div className={styles.item}>
-						<Link
-							href={"/services/#servicesAccordion"}
-							title="Click to Follow Link">
+						<Link href={"/services/#development"} title="Click to Follow Link">
 							Development
 						</Link>
 					</div>
@@ -79,23 +75,19 @@ function WebsiteRefs() {
 					</div>
 
 					<div className={styles.item}>
-						<Link href={"/contact/#howToOrder"} title="Click to Follow Link">
+						<Link href={"/contact/#how_to_order"} title="Click to Follow Link">
 							Order Today
 						</Link>
 					</div>
 
 					<div className={styles.item}>
-						<Link
-							href={"/contact/#contactAccordion"}
-							title="Click to Follow Link">
+						<Link href={"/contact/#support"} title="Click to Follow Link">
 							Our Support
 						</Link>
 					</div>
 
 					<div className={styles.item}>
-						<Link
-							href={"/contact/#effectiveWebsites"}
-							title="Click to Follow Link">
+						<Link href={"/contact/#consulting"} title="Click to Follow Link">
 							Consulting
 						</Link>
 					</div>
@@ -104,7 +96,7 @@ function WebsiteRefs() {
 				<div className={styles.card}>
 					<div className={styles.item}>
 						<h3>
-							<Link href={"/#whyContractUs"} title="Click to Follow Link">
+							<Link href={"/#why_contract_us"} title="Click to Follow Link">
 								Background
 							</Link>
 						</h3>
@@ -117,13 +109,17 @@ function WebsiteRefs() {
 					</div>
 
 					<div className={styles.item}>
-						<Link href={"/contact/#howToContact"} title="Click to Follow Link">
+						<Link
+							href={"/contact/#how_to_contact"}
+							title="Click to Follow Link">
 							Requests
 						</Link>
 					</div>
 
 					<div className={styles.item}>
-						<Link href={"/contact/#letUsProceed"} title="Click to Follow Link">
+						<Link
+							href={"/contact/#let_us_proceed"}
+							title="Click to Follow Link">
 							Proceed
 						</Link>
 					</div>

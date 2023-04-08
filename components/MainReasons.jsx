@@ -3,7 +3,7 @@ import styles from "../styles/MainReasons.module.css";
 
 function MainReasons() {
 	return (
-		<section className={styles.container} id="mainReasons">
+		<section className={styles.container} id="reasons">
 			<h2 className={styles.h2}>
 				Why should you get website repair and maintenance services?
 			</h2>

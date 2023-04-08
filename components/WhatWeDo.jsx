@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function WhatWeDo() {
 	return (
-		<section className={styles.container} id="whatWeDo">
+		<section className={styles.container} id="offer">
 			<h1 className={styles.h1}>
 				What services do you offer at website <br />
 				repair and maintenance?

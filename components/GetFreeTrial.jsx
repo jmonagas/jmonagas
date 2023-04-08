@@ -4,7 +4,7 @@ import styles from "../styles/GetFreeTrial.module.css";
 function GetFreeTrial() {
 	return (
 		<>
-			<section className={styles.container} id="getFreeTrial">
+			<section className={styles.container} id="get_free_trial">
 				<div
 					className={styles.wrapper}
 					alt="Start A Free Trial Today"

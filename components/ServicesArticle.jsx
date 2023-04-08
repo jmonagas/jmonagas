@@ -3,7 +3,7 @@ import styles from "../styles/ServicesArticle.module.css";
 
 function ServicesArticle() {
 	return (
-		<section className={styles.container} id="servicesArticle">
+		<section className={styles.container} id="maintenance">
 			<div className={styles.wrapper}>
 				<div className={styles.articles}>
 					<h2 className={styles.h2}>

@@ -4,7 +4,7 @@ import styles from "../styles/ChooseServices.module.css";
 function ChooseServices() {
 	return (
 		<>
-			<div className={styles.container} id="chooseServices">
+			<div className={styles.container} id="choose_services">
 				<div
 					className={styles.wrapper}
 					alt="Choose the services you need"
@@ -13,8 +13,8 @@ function ChooseServices() {
 						What website maintenance services do you need as a minimum?
 					</h2>
 					<p className={styles.subs}>
-						To stay competitive and get all of the benefits without
-						spending a fortune
+						To stay competitive and get all of the benefits without spending a
+						fortune
 					</p>
 					<ul className={styles.list}>
 						<li className={styles.item}>
@@ -55,9 +55,7 @@ function ChooseServices() {
 						<li className={styles.item}>
 							<span className={styles.span}>.06</span>
 							<h2 className={styles.h2}>Analize</h2>
-							<p className={styles.desc}>
-								Check main competitor key strengths
-							</p>
+							<p className={styles.desc}>Check main competitor key strengths</p>
 						</li>
 						<li className={styles.item}>
 							<span className={styles.span}>.07</span>

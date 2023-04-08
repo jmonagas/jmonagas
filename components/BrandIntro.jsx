@@ -8,7 +8,7 @@ function BrandIntro() {
 			title="Order & Pay Only For What You Get Fixed"
 			alt="Order & Pay Only For What You Get Fixed">
 			<div className={styles.branding}>
-				<section id="brandingIntro1">
+				<section>
 					<div className={styles.heading}>
 						<h1 className={styles.h1}>
 							Meet Website Repair & Maintenance Services
@@ -18,7 +18,7 @@ function BrandIntro() {
 						</p>
 					</div>
 				</section>
-				<section id="brandingIntro2">
+				<section>
 					<div className={styles.framing}>
 						<h2 className={styles.h2}>
 							When you are not limited to your local market or to your physical
@@ -28,14 +28,14 @@ function BrandIntro() {
 						</h2>
 					</div>
 				</section>
-				<section id="brandingIntro3">
+				<section>
 					<div className={styles.connect}>
 						<a href="tel:1+4033973696" title="Phone Us Today">
 							<div className={styles.connect_item}>
 								<svg viewBox="0 0 64 64" fill="#000000" height={30} width={30}>
 									<g
 										fill="none"
-										stroke="rgb(0, 105, 131)"
+										stroke="currentColor"
 										strokeMiterlimit={10}
 										strokeWidth={3}>
 										<path d="M16 1h32v62H16zM28 5h8M16 51h32M16 9h32" />
@@ -56,7 +56,7 @@ function BrandIntro() {
 									width={30}>
 									<g
 										fill="none"
-										stroke="rgb(0, 105, 131)"
+										stroke="currentColor"
 										strokeMiterlimit={10}
 										strokeWidth={3}>
 										<path d="M1 13h62v37H1z" />
@@ -78,7 +78,7 @@ function BrandIntro() {
 									width={30}>
 									<g
 										fill="none"
-										stroke="rgb(0, 105, 131)"
+										stroke="currentColor"
 										strokeMiterlimit={10}
 										strokeWidth={3}>
 										<path d="M38 22 A6 6 0 0 1 32 28 A6 6 0 0 1 26 22 A6 6 0 0 1 38 22 z" />

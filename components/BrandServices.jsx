@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/BrandServices.module.css";
+import styles from "../styles/BrandIntro.module.css";
 
 function BrandServices() {
 	return (
@@ -8,7 +8,7 @@ function BrandServices() {
 			title="Products And Services To Meet Your Needs"
 			alt="Products And Services To Meet Your Needs">
 			<div className={styles.branding}>
-				<section id="brandingServices1">
+				<section>
 					<div className={styles.heading}>
 						<h1 className={styles.h1}>
 							Get Website Repair & Maintenance Services
@@ -19,7 +19,7 @@ function BrandServices() {
 					</div>
 				</section>
 
-				<section id="brandingServices2">
+				<section>
 					<div className={styles.framing}>
 						<h2 className={styles.h2}>
 							Websites might be offline for a few minutes; but oftentimes this
@@ -30,7 +30,7 @@ function BrandServices() {
 					</div>
 				</section>
 
-				<section id="brandingServices3">
+				<section>
 					<div className={styles.connect}>
 						<a href="tel:1+4033973696" title="Phone Us Today">
 							<div className={styles.connect_item}>
@@ -41,7 +41,7 @@ function BrandServices() {
 									width={30}>
 									<g
 										fill="none"
-										stroke="rgb(0, 105, 131)"
+										stroke="currentColor"
 										strokeMiterlimit={10}
 										strokeWidth={3}>
 										<path d="M16 1h32v62H16zM28 5h8M16 51h32M16 9h32" />
@@ -62,7 +62,7 @@ function BrandServices() {
 									width={30}>
 									<g
 										fill="none"
-										stroke="rgb(0, 105, 131)"
+										stroke="currentColor"
 										strokeMiterlimit={10}
 										strokeWidth={3}>
 										<path d="M1 13h62v37H1z" />
@@ -84,7 +84,7 @@ function BrandServices() {
 									width={30}>
 									<g
 										fill="none"
-										stroke="rgb(0, 105, 131)"
+										stroke="currentColor"
 										strokeMiterlimit={10}
 										strokeWidth={3}>
 										<path d="M38 22 A6 6 0 0 1 32 28 A6 6 0 0 1 26 22 A6 6 0 0 1 38 22 z" />
