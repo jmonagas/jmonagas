@@ -16,7 +16,6 @@ function ServicesAccordion() {
 							alt="Get Front-End Services"
 							title="Get Front-End Services">
 							<label
-								role="button"
 								className={styles.label}
 								htmlFor="one"
 								title="Click to Display Content"
@@ -54,7 +53,6 @@ function ServicesAccordion() {
 							alt="Get Back-End Services"
 							title="Get Back-End Services">
 							<label
-								role="button"
 								className={styles.label}
 								htmlFor="two"
 								title="Click to Display Content"
@@ -92,7 +90,6 @@ function ServicesAccordion() {
 							alt="Get Full-Stack Services"
 							title="Get Full-Stack Services">
 							<label
-								role="button"
 								className={styles.label}
 								htmlFor="three"
 								title="Click to Display Content"

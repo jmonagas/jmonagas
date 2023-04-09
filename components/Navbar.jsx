@@ -17,7 +17,6 @@ const Navbar = () => {
 				onClick={() => setOpen(!open)}>
 				<span className={styles.activate}>
 					<svg
-						role="button"
 						viewBox="0 0 1024 1024"
 						fill="currentColor"
 						height={30}
@@ -31,7 +30,7 @@ const Navbar = () => {
 					onClick={() => setOpen(false)}
 					className={styles.hamburgerList}
 					style={{ right: open ? "0px" : "-300vw" }}>
-					<li className={styles.hamburgerItem} role="button">
+					<li className={styles.hamburgerItem}>
 						<Link href="/" title="Learn About Us">
 							<span>
 								<svg
@@ -45,7 +44,7 @@ const Navbar = () => {
 							&nbsp;&nbsp;About
 						</Link>
 					</li>
-					<li className={styles.hamburgerItem} role="button">
+					<li className={styles.hamburgerItem}>
 						<Link href="/services" title="Get Our Services">
 							<span>
 								<svg
@@ -59,7 +58,7 @@ const Navbar = () => {
 							&nbsp;&nbsp;Services
 						</Link>
 					</li>
-					<li className={styles.hamburgerItem} role="button">
+					<li className={styles.hamburgerItem}>
 						<Link href="/contact" title="Contact Us Now">
 							<span>
 								<svg

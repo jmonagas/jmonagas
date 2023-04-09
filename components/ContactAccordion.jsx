@@ -26,7 +26,6 @@ function ContactAccordion() {
 							alt="Get Our Continuous Support And Dedicated Services"
 							title="Get Our Continuous Support And Dedicated Services">
 							<label
-								role="button"
 								className={styles.label}
 								htmlFor="one"
 								title="Click to Display Content"
@@ -35,7 +34,6 @@ function ContactAccordion() {
 							</label>
 
 							<input
-								role="button"
 								className={styles.check}
 								type="checkbox"
 								name="accordion"
@@ -62,7 +60,6 @@ function ContactAccordion() {
 							alt="Get Our Continuous Support And Dedicated Services"
 							title="Get Our Continuous Support And Dedicated Services">
 							<label
-								role="button"
 								className={styles.label}
 								htmlFor="two"
 								title="Click to Display Content"
@@ -71,7 +68,6 @@ function ContactAccordion() {
 							</label>
 
 							<input
-								role="button"
 								className={styles.check}
 								type="checkbox"
 								name="accordion"
@@ -98,7 +94,6 @@ function ContactAccordion() {
 							alt="Get Our Continuous Support And Dedicated Services"
 							title="Get Our Continuous Support And Dedicated Services">
 							<label
-								role="button"
 								className={styles.label}
 								htmlFor="three"
 								title="Click to Display Content"
@@ -107,7 +102,6 @@ function ContactAccordion() {
 							</label>
 
 							<input
-								role="button"
 								className={styles.check}
 								type="checkbox"
 								name="accordion"
@@ -135,7 +129,6 @@ function ContactAccordion() {
 							alt="Get Our Continuous Support And Dedicated Services"
 							title="Get Our Continuous Support And Dedicated Services">
 							<label
-								role="button"
 								className={styles.label}
 								htmlFor="four"
 								title="Click to Display Content"
@@ -144,7 +137,6 @@ function ContactAccordion() {
 							</label>
 
 							<input
-								role="button"
 								className={styles.check}
 								type="checkbox"
 								name="accordion"
@@ -172,7 +164,6 @@ function ContactAccordion() {
 							alt="Get Our Continuous Support And Dedicated Services"
 							title="Get Our Continuous Support And Dedicated Services">
 							<label
-								role="button"
 								className={styles.label}
 								htmlFor="five"
 								title="Click to Display Content"
@@ -181,7 +172,6 @@ function ContactAccordion() {
 							</label>
 
 							<input
-								role="button"
 								className={styles.check}
 								type="checkbox"
 								name="accordion"
