@@ -3,7 +3,7 @@ import styles from "../styles/Introduction.module.css";
 
 function Introduction() {
 	return (
-		<section className={styles.container} id="expertise">
+		<section className={styles.container} id="expertise" role="article">
 			<h1 className={styles.h1}>
 				What expertise do you have at website
 				<br />

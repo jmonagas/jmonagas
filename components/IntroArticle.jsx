@@ -3,7 +3,7 @@ import styles from "../styles/IntroArticle.module.css";
 
 function IntroArticle() {
 	return (
-		<section className={styles.container} id="benefits">
+		<section className={styles.container} id="benefits" role="article">
 			<div className={styles.wrapper}>
 				<div className={styles.articles}>
 					<h2 className={styles.h2}>

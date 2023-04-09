@@ -4,6 +4,7 @@ import styles from "../styles/BrandIntro.module.css";
 function BrandIntro() {
 	return (
 		<section
+			role="banner"
 			className={styles.container}
 			title="Order & Pay Only For What You Get Fixed"
 			alt="Order & Pay Only For What You Get Fixed">
@@ -31,7 +32,7 @@ function BrandIntro() {
 				<section>
 					<div className={styles.connect}>
 						<a href="tel:1+4033973696" title="Phone Us Today">
-							<div className={styles.connect_item}>
+							<div className={styles.connect_item} role="button">
 								<svg viewBox="0 0 64 64" fill="#000000" height={30} width={30}>
 									<g
 										fill="none"
@@ -48,7 +49,7 @@ function BrandIntro() {
 							</div>
 						</a>
 						<a href="mailto:jmonagas@hotmail.ca" title="Email Us Now">
-							<div className={styles.connect_item}>
+							<div className={styles.connect_item} role="button">
 								<svg
 									viewBox="0 0 64 64"
 									fill="currentColor"
@@ -70,7 +71,7 @@ function BrandIntro() {
 							title="Find Us Today"
 							target="_blank"
 							rel="noopener noreferrer">
-							<div className={styles.connect_item}>
+							<div className={styles.connect_item} role="button">
 								<svg
 									viewBox="0 0 64 64"
 									fill="currentColor"

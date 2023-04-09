@@ -5,7 +5,10 @@ import Link from "next/link";
 function ServicesOptions() {
 	return (
 		<>
-			<section className={styles.container} id="services_options">
+			<section
+				className={styles.container}
+				id="services_options"
+				role="article">
 				<div className={styles.desc}>
 					<h2 className={styles.h2}>
 						With so many options available, it would be right to contact Website

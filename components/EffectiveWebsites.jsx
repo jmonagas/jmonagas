@@ -4,7 +4,7 @@ import styles from "../styles/EffectiveWebsites.module.css";
 function EffectiveWebsites() {
 	return (
 		<>
-			<div className={styles.container} id="consulting">
+			<div className={styles.container} id="consulting" role="article">
 				<div
 					className={styles.wrapper}
 					title="Get An Effective Website"

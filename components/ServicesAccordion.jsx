@@ -4,7 +4,7 @@ import styles from "../styles/ServicesAccordion.module.css";
 function ServicesAccordion() {
 	return (
 		<>
-			<section className={styles.container} id="development">
+			<section className={styles.container} id="development" role="article">
 				<div className={styles.desc}>
 					<h2 className={styles.h2}>How we can help your business</h2>
 					<p className={styles.p}>This is the time to think big and grow</p>
@@ -16,6 +16,7 @@ function ServicesAccordion() {
 							alt="Get Front-End Services"
 							title="Get Front-End Services">
 							<label
+								role="button"
 								className={styles.label}
 								htmlFor="one"
 								title="Click to Display Content"
@@ -24,6 +25,7 @@ function ServicesAccordion() {
 							</label>
 
 							<input
+								role="button"
 								className={styles.check}
 								type="checkbox"
 								name="accordion"
@@ -52,6 +54,7 @@ function ServicesAccordion() {
 							alt="Get Back-End Services"
 							title="Get Back-End Services">
 							<label
+								role="button"
 								className={styles.label}
 								htmlFor="two"
 								title="Click to Display Content"
@@ -60,6 +63,7 @@ function ServicesAccordion() {
 							</label>
 
 							<input
+								role="button"
 								className={styles.check}
 								type="checkbox"
 								name="accordion"
@@ -88,6 +92,7 @@ function ServicesAccordion() {
 							alt="Get Full-Stack Services"
 							title="Get Full-Stack Services">
 							<label
+								role="button"
 								className={styles.label}
 								htmlFor="three"
 								title="Click to Display Content"
@@ -96,6 +101,7 @@ function ServicesAccordion() {
 							</label>
 
 							<input
+								role="button"
 								className={styles.check}
 								type="checkbox"
 								name="accordion"

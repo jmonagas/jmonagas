@@ -4,7 +4,7 @@ import styles from "../styles/ChooseServices.module.css";
 function ChooseServices() {
 	return (
 		<>
-			<div className={styles.container} id="choose_services">
+			<div className={styles.container} id="choose_services" role="article">
 				<div
 					className={styles.wrapper}
 					alt="Choose the services you need"

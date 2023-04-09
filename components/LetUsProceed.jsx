@@ -4,7 +4,7 @@ import styles from "../styles/LetUsProceed.module.css";
 function LetUsProceed() {
 	return (
 		<>
-			<section className={styles.container} id="let_us_proceed">
+			<section className={styles.container} id="let_us_proceed" role="article">
 				<div
 					className={styles.wrapper}
 					alt="Let Us Proceed Now"

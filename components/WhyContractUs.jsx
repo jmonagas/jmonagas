@@ -5,7 +5,7 @@ import Image from "next/image";
 function WhyContractUs() {
 	return (
 		<>
-			<section className={styles.container} id="why_contract_us">
+			<section className={styles.container} id="why_contract_us" role="article">
 				<div className={styles.wrapper}>
 					<div className={styles.left}>
 						<Image

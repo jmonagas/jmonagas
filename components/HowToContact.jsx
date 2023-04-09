@@ -4,7 +4,7 @@ import styles from "../styles/HowToContact.module.css";
 function HowToContact() {
 	return (
 		<>
-			<section className={styles.container} id="how_to_contact">
+			<section className={styles.container} id="how_to_contact" role="article">
 				<div className={styles.desc}>
 					<h2 className={styles.h2}>
 						Why should you get a free consultation now?

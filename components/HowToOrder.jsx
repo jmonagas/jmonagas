@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function HowToOrder() {
 	return (
-		<section className={styles.container} id="how_to_order">
+		<section className={styles.container} id="how_to_order" role="article">
 			<h1 className={styles.h1}>
 				How can you order website repair and
 				<br />
