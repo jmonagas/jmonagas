@@ -106,7 +106,11 @@ function MyApp({ Component, pageProps }) {
 					content="Jose G. Monagas, Web Developer Full Stack, Calgary AB Canada"
 					key="copyright"
 				/>
-				<link rel="canonical" type="canonical" href="https://jmonagas.com" />
+				<link
+					rel="canonical"
+					type="canonical"
+					href="https://jmonagas.com/services"
+				/>
 				<link
 					rel="shortcut icon"
 					href="https://cdn.pixabay.com/photo/2021/10/11/13/12/website-6700615_960_720.png"
